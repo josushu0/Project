@@ -1,3 +1,8 @@
+/*
+ * SPDX-License-Identifier: GPL-3.0-or-later
+ * SPDX-FileCopyrightText: 2021 Josué Israel Martell Castro <josue.martell17@gmail.com>
+ */
+
 public class Project : Gtk.Application {
     public Project () {
         Object (
