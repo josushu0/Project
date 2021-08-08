@@ -5,6 +5,8 @@ project('com.github.josue.Project', 'vala', 'c')
 executable(
     meson.project_name(),
     'src' / 'Application.vala',
+    'src' / 'widgets' / 'Window.vala',
+    'src' / 'widgets' / 'HeaderBar.vala',
     dependencies: [
         dependency('gtk+-3.0')
     ],
